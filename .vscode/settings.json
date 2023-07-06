@@ -1,0 +1,3 @@
+{
+  "dotnet.defaultSolution": "CurrencyApi.Solution\\CurrencyApi\\currencyapi.sln"
+}

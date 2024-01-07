@@ -18,7 +18,7 @@ namespace CurrencyApi.Models
 
         public static async Task<HttpResponseMessage> GetExchangeRates(CurrencyInfo postData)
         {
-            HttpResponseMessage response = await client.GetAsync($"https://api.exchangerate-api.com/v4/latest/{postData.baseCurrency.Item1}");
+            HttpResponseMessage response = await client.GetAsync($"https://v6.exchangerate-api.com/v6/8e44806e11613498f4eec236/latest/{postData.baseCurrency.Item1}");
 
             return response;
         }
